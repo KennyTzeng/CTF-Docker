@@ -1,5 +1,6 @@
 This is my Dockerfile for ctf-pwn environment.
 
+OS : ubuntu 18.04
 Installed tools include : 
 + vim, git
 + objdump
@@ -11,8 +12,8 @@ Installed tools include :
 
 Usage : 
 ```
-# build image from my Dockerfile && run
-# change REPOSITORY and TAG with yours
+# build image from Dockerfile && run
+# replace REPOSITORY and TAG with yours
 git clone https://github.com/KennyTzeng/ctf_docker
 cd ctf_docker
 sudo docker build -t="REPOSITORY:TAG" .
